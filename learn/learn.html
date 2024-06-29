@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation HTML CSS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./learn.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Logo</div>
+        <div class="nav-links">
+            <a href="../main page/main.html">Accueil</a>
+            <a href="../def/def.html">HTML</a>
+            <a href="../def/def.html">CSS</a>
+            <a href="../def/def.html">JavaScript</a>
+        </div>
+        <button class="contact-btn">Contactez-nous</button>
+    </div>
+
+    <div class="documentation">
+        <div class="section">
+            <h2 class="section-title">Balises HTML</h2>
+            <div class="content">
+                <div class="item">
+                    <div class="tag" onclick="toggleVisibility('tag1')"> &lt;h1&gt;</div>
+                    <div id="tag1" class="description">
+                        <p>La balise <strong>&lt;h1&gt;</strong> définit un titre de niveau supérieur.</p>
+                        <p>Exemple :</p>
+                        <code>&lt;h1&gt;Ceci est un titre&lt;/h1&gt;</code>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="tag" onclick="toggleVisibility('tag2')"> &lt;p&gt;</div>
+                    <div id="tag2" class="description">
+                        <p>La balise <strong>&lt;p&gt;</strong> définit un paragraphe.</p>
+                        <p>Exemple :</p>
+                        <code>&lt;p&gt;Ceci est un paragraphe&lt;/p&gt;</code>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="tag" onclick="toggleVisibility('tag3')"> &lt;a&gt;</div>
+                    <div id="tag3" class="description">
+                        <p>La balise <strong>&lt;a&gt;</strong> définit un hyperlien.</p>
+                        <p>Exemple :</p>
+                        <code>&lt;a href="https://example.com"&gt;Visitez notre site&lt;/a&gt;</code>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="tag" onclick="toggleVisibility('tag4')"> &lt;img&gt;</div>
+                    <div id="tag4" class="description">
+                        <p>La balise <strong>&lt;img&gt;</strong> définit une image.</p>
+                        <p>Exemple :</p>
+                        <code>&lt;img src="image.jpg" alt="Image"&gt;</code>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="tag" onclick="toggleVisibility('tag5')"> &lt;div&gt;</div>
+                    <div id="tag5" class="description">
+                        <p>La balise <strong>&lt;div&gt;</strong> définit une division ou une section dans un document HTML.</p>
+                        <p>Exemple :</p>
+                        <code>&lt;div&gt;Ceci est une division&lt;/div&gt;</code>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="tag" onclick="toggleVisibility('tag6')"> &lt;span&gt;</div>
+                    <div id="tag6" class="description">
+                        <p>La balise <strong>&lt;span&gt;</strong> est utilisée pour regrouper des éléments en ligne dans un document.</p>
+                        <p>Exemple :</p>
+                        <code>&lt;p&gt;Mon nom est &lt;span&gt;Jean&lt;/span&gt;&lt;/p&gt;</code>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="tag" onclick="toggleVisibility('tag7')"> &lt;ul&gt;</div>
+                    <div id="tag7" class="description">
+                        <p>La balise <strong>&lt;ul&gt;</strong> définit une liste non ordonnée.</p>
+                        <p>Exemple :</p>
+                        <code>&lt;ul&gt;&lt;li&gt;Élément 1&lt;/li&gt;&lt;li&gt;Élément 2&lt;/li&gt;&lt;/ul&gt;</code>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="tag" onclick="toggleVisibility('tag8')"> &lt;ol&gt;</div>
+                    <div id="tag8" class="description">
+                        <p>La balise <strong>&lt;ol&gt;</strong> définit une liste ordonnée.</p>
+                        <p>Exemple :</p>
+                        <code>&lt;ol&gt;&lt;li&gt;Premier élément&lt;/li&gt;&lt;li&gt;Deuxième élément&lt;/li&gt;&lt;/ol&gt;</code>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="tag" onclick="toggleVisibility('tag9')"> &lt;li&gt;</div>
+                    <div id="tag9" class="description">
+                        <p>La balise <strong>&lt;li&gt;</strong> définit un élément de liste.</p>
+                        <p>Exemple :</p>
+                        <code>&lt;ul&gt;&lt;li&gt;Élément 1&lt;/li&gt;&lt;li&gt;Élément 2&lt;/li&gt;&lt;/ul&gt;</code>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="tag" onclick="toggleVisibility('tag10')"> &lt;table&gt;</div>
+                    <div id="tag10" class="description">
+                        <p>La balise <strong>&lt;table&gt;</strong> définit un tableau.</p>
+                        <p>Exemple :</p>
+                        <code>
+                            &lt;table&gt;<br>
+                            &lt;tr&gt;&lt;th&gt;En-tête 1&lt;/th&gt;&lt;th&gt;En-tête 2&lt;/th&gt;&lt;/tr&gt;<br>
+                            &lt;tr&gt;&lt;td&gt;Donnée 1&lt;/td&gt;&lt;td&gt;Donnée 2&lt;/td&gt;&lt;/tr&gt;<br>
+                            &lt;/table&gt;
+                        </code>
+                    </div>
+                </div>
+                <!-- Ajoutez plus de balises HTML et leurs descriptions ici -->
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Propriétés CSS</h2>
+            <div class="content">
+                <div class="item">
+                    <div class="property" onclick="toggleVisibility('property1')">color</div>
+                    <div id="property1" class="description">
+                        <p>La propriété <strong>color</strong> définit la couleur du texte.</p>
+                        <p>Exemple :</p>
+                        <code>color: blue;</code>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="property" onclick="toggleVisibility('property2')">background-color</div>
+                    <div id="property2" class="description">
+                        <p>La propriété <strong>background-color</strong> définit la couleur de fond d'un élément.</p>
+                        <p>Exemple :</p>
+                        <code>background-color: yellow;</code>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="property" onclick="toggleVisibility('property3')">font-size</div>
+                    <div id="property3" class="description">
+                        <p>La propriété <strong>font-size</strong> définit la taille de la police.</p>
+                        <p>Exemple :</p>
+                        <code>font-size: 16px;</code>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="property" onclick="toggleVisibility('property4')">font-family</div>
+                    <div id="property4" class="description">
+                        <p>La propriété <strong>font-family</strong> définit la famille de polices à utiliser pour le texte.</p>
+                        <p>Exemple :</p>
+                        <code>font-family: Arial, sans-serif;</code>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="property" onclick="toggleVisibility('property5')">margin</div>
+                    <div id="property5" class="description">
+                        <p>La propriété <strong>margin</strong> définit la marge d'un élément.</p>
+                        <p>Exemple :</p>
+                        <code>margin: 10px;</code>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="property" onclick="toggleVisibility('property6')">padding</div>
+                    <div id="property6" class="description">
+                        <p>La propriété <strong>padding</strong> définit le rembourrage d'un élément.</p>
+<p>Exemple :</p>
+<code>padding: 20px;</code>
+</div>
+</div>
+<div class="item">
+<div class="property" onclick="toggleVisibility('property7')">border</div>
+<div id="property7" class="description">
+<p>La propriété <strong>border</strong> définit la bordure d'un élément.</p>
+<p>Exemple :</p>
+<code>border: 1px solid black;</code>
+</div>
+</div>
+<div class="item">
+<div class="property" onclick="toggleVisibility('property8')">width</div>
+<div id="property8" class="description">
+<p>La propriété <strong>width</strong> définit la largeur d'un élément.</p>
+<p>Exemple :</p>
+<code>width: 100px;</code>
+</div>
+</div>
+<div class="item">
+<div class="property" onclick="toggleVisibility('property9')">height</div>
+<div id="property9" class="description">
+<p>La propriété <strong>height</strong> définit la hauteur d'un élément.</p>
+<p>Exemple :</p>
+<code>height: 100px;</code>
+</div>
+</div>
+<div class="item">
+<div class="property" onclick="toggleVisibility('property10')">display</div>
+<div id="property10" class="description">
+<p>La propriété <strong>display</strong> spécifie le comportement d'affichage d'un élément.</p>
+<p>Exemple :</p>
+<code>display: flex;</code>
+</div>
+</div>
+<div class="item">
+<div class="property" onclick="toggleVisibility('property11')">position</div>
+<div id="property11" class="description">
+<p>La propriété <strong>position</strong> spécifie le type de positionnement utilisé pour un élément.</p>
+<p>Exemple :</p>
+<code>position: absolute;</code>
+</div>
+</div>
+<div class="item">
+<div class="property" onclick="toggleVisibility('property12')">top</div>
+<div id="property12" class="description">
+<p>La propriété <strong>top</strong> spécifie la position supérieure d'un élément.</p>
+<p>Exemple :</p>
+<code>top: 50px;</code>
+</div>
+</div>
+<div class="item">
+<div class="property" onclick="toggleVisibility('property13')">left</div>
+<div id="property13" class="description">
+<p>La propriété <strong>left</strong> spécifie la position gauche d'un élément.</p>
+<p>Exemple :</p>
+<code>left: 50px;</code>
+</div>
+</div>
+<div class="item">
+<div class="property" onclick="toggleVisibility('property14')">right</div>
+<div id="property14" class="description">
+<p>La propriété <strong>right</strong> spécifie la position droite d'un élément.</p>
+<p>Exemple :</p>
+<code>right: 50px;</code>
+</div>
+</div>
+<div class="item">
+<div class="property" onclick="toggleVisibility('property15')">bottom</div>
+<div id="property15" class="description">
+<p>La propriété <strong>bottom</strong> spécifie la position inférieure d'un élément.</p>
+<p>Exemple :</p>
+<code>bottom: 50px;</code>
+</div>
+</div>
+<div class="item">
+<div class="property" onclick="toggleVisibility('property16')">float</div>
+<div id="property16" class="description">
+<p>La propriété <strong>float</strong> spécifie comment un élément doit flotter.</p>
+<p>Exemple :</p>
+<code>float: left;</code>
+</div>
+</div>
+<div class="item">
+<div class="property" onclick="toggleVisibility('property17')">clear</div>
+<div id="property17" class="description">
+<p>La propriété <strong>clear</strong> spécifie quels éléments peuvent flotter à côté de l'élément dégagé et de quel côté.</p>
+<p>Exemple :</p>
+<code>clear: both;</code>
+</div>
+</div>
+<!-- Ajoutez plus de propriétés CSS et leurs descriptions ici -->
+</div>
+</div>
+</div>
+<script>
+function toggleVisibility(id) {
+const element = document.getElementById(id);
+if (element.style.display === 'none' || element.style.display === '') {
+element.style.display = 'block';
+} else {
+element.style.display = 'none';
+}
+}
+</script>
+</body>
+</html>

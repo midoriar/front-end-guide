@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5EF;
+}
+.navbar {
+    background-color: #317AFD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+.navbar a {  
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+.navbar a:hover {
+    background-color: #295cbd;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+}
+.navbar .nav-links a {
+    margin: 0 10px;
+}
+.navbar .contact-btn {
+    background-color: #2ED9C3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar .contact-btn:hover {
+    background-color: #1C8CD3; /* A more intense blue color */
+    transform: scale(1.1); /* Grow the button slightly */
+}
+/* -------------------------------------------------------------------------------- */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    height: 80vh;
+    padding: 50px;
+}
+.hero-text {
+    max-width: 50%;
+}
+.hero-text h1 {
+    font-size: 36px;
+    color: #317AFD;
+}
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+.hero-text .learn-btn {
+    background-color: #317AFD;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.hero-text .learn-btn:hover {
+    background-color: #2bcbd3; /* A more intense blue color */
+    transform: scale(1.1); /* Grow the button slightly */
+}
+.hero-image {
+    /* max-width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.about-section {
+    padding: 90px;
+    background-color: #f9f9f9;
+    
+}
+.about-section h2 {
+    font-size: 30px;
+    color: #317AFD;
+    margin-bottom: 20px;
+}
+/* .about-section .about-content {
+    display: flex;
+    flex-direction: column;
+} */
+.about-section .about-boxes {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-bottom:  30px;
+}
+.about-section .about-boxes .highlight-box {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+    min-width: 150px;
+}
+.about-section .about-content p {
+    font-size: 18px;
+}
+
+
+/* ------------------------------------------------------------------- */
+
+.new-section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.new-section .text-content {
+    max-width: 50%;
+}
+.new-section .text-content h2 {
+    font-size: 30px;
+    color: #1F284F;
+    font-weight: bold;
+}
+.new-section .text-content p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+.new-section .image-content {
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.new-section .image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+
+}
+.text-content a button {
+    background-color: #0070F0;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 30px;
+    color: white;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.text-content a button:hover {
+    background-color: #19b5b5; /* A more intense blue color */
+    transform: scale(1.1); /* Grow the button slightly */
+}
+
+/* ----------------------------------------------------------------------------- */
+.vs-code-section {
+    background-color: #1F384F;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+.vs-code-section h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.vs-code-section .vs-btn {
+    background-color: #317AFD;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.vs-code-section .vs-btn:hover {
+    background-color: #2fb8bf; 
+    transform: scale(1.1); 
+}
+
+
+/* ---------------------------------------------------------------- */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    border: 1px solid #00f;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+}
+.footer-section h3 {
+    color: #007BFF;
+}
+.footer-section h3 span {
+    color: #f00;
+}
+.footer-section p {
+    margin: 10px 0;
+}
+
+.footer-section a {
+    display: block;
+    margin: 5px 0;
+    color: #007BFF;
+    text-decoration: none;
+}
+.footer-section a:hover {
+    text-decoration: underline;
+}
+.footer-section .contact-info p {
+    margin: 5px 0;
+}
+.footer-section .contact-info p span {
+    font-weight: bold;
+}
